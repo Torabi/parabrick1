@@ -1,0 +1,58 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">deaf8653-5528-4286-807c-3de8b8dad781</item>
+    <item name="Name" type_name="gh_string" type_code="10">Surface</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="7">
+        <item name="Description" type_name="gh_string" type_code="10">Contains a collection of generic surfaces</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">235d2bf3-60b7-464f-a24d-6fd70624104e</item>
+        <item name="Name" type_name="gh_string" type_code="10">Surface</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Surface</item>
+        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+        <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+      </items>
+      <chunks count="2">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>5547</X>
+              <Y>1768</Y>
+              <W>50</W>
+              <H>24</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>5572.919</X>
+              <Y>1780.991</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="PersistentData">
+          <items count="1">
+            <item name="Count" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Branch" index="0">
+              <items count="2">
+                <item name="Count" type_name="gh_int32" type_code="3">1</item>
+                <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Item" index="0">
+                  <items count="2">
+                    <item name="ON_Data" type_name="gh_bytearray" type_code="20">
+                      <stream length="1125">Y2BkYGD4DwQgGgR4mIBEeFBGZl6+c35ubn6ejkJYalFxZn6erbmesZmekbGxiZmeoZmxqaGOgnNpTklpUaptXmppSVFijo5CQGlSTmayd2plSH52ap6tqamRkYVhqqV5srmpqamxASvIFmGw4Xruqfm5qSVFlXpORakFLEBx9jKIPVyJRckZmWWpxim5nPkFqXl5pUVJxSwpiSWJIEUcHBxMICcKqDMwGAHp/Zz8PJzMQAY/iAjjZ2Bg+lXPxODFD/HO7/9MDCJQrzkfyv+gtZjDbe6N5ZeOnNMy0/i3xuoPUF4IqtaIoYHBwZYZwhEAOQnkXJBpexkwTZMUXB8XyH1FcP8/BoFmRqUPXlKV4iDTWqHyAkxQBhMUo4IP9hhCEPH96CLIel+lbvN3PbPEAdM8hByMbxTb5fO/nqkBxh90nuk4oyDiYbUR7Bl0x8P4MDUSi+XlBrVnkGMG3fHoHk46eN9jUHsGOWbQxdD1edh7SSF7xrrtGisoI/lCNaNkpEYsPrx95bqf+8vLgvufQnz4ZfZLZZAPPWE+3Oh8h/O74jKH7rk5V+rdl8FdABPXdL6wQW7txAPoLoNFAyhHfzepScUW5BQ5CN3ipotFhl8O78bpIFgQghzEdXlRFNUchMtimDh6yEFDBqauAeSgbUk3eKjuIFxRhi4ODRkUB5m8EPqJLWEZQasqAUYkV0oyYrpS/ESC+2OkrLNao28fyJUPYa6EFvXwrEPrkhoW/yx4QoJQyBGb5tbNU16KHHoqhvftQKF3EuZ5FjSD0S2EORwWSCDAiMchTEhqkMVwOZAJqhY5gJjxBAAscpDd47/lyx+Qp2CxD/cUOkCuXmDJBp86bGpgsQdzNC5zkAtPmOfQMxzMI+gBgC1jwjyMLY/A/IMcKOjqInZNEwQHEnKBjMvjMD4jEo0rUHHpJRagByByACMHDIjNSsAsXLUTIYCe5ZGzLXJqA7mBjYBZ5IYDciSDAHI1gZ77mBnwA3LDYf6Xh/9BiUQTyheARQws8mERAku1IFB8fmcPSJMhlC+InGoIgcAPTY8hLOILWJBl3tAgYAQV+1ZQDnKx/wStctLdKR0DKvaZoGpNYQ0SNNvscfHR4xUWxujNvO38hq7fM3qPgNQskb/nymhj5Ap1tj0S3o+EUcQg3TCgF6dCLRJlYMBdzOg6y7x+ZCaFEXYCWNQig3aX514S4dvA+sAp/+wZEHhizwC2WxSqDBbfLDBlN3stOVsizU/DJJkZGZgMgPSZfx84GXYCvf7fGuLdRUCvw9gg8a/QIAGJw9ggjRXbFqQjuavBnhi2ApCsL/KPRvMULCDR2diBAxB/nOG7CacC9BiGiWM07IEBtgQqhyue0qqZ/0FYuNI5AnDz5tfZtX+FqzP6bmU2jXmiA3bVhM2DqQO5y0AtoB9I7d9yTxu5XSB9n3UpyBvwArb3PdMlEP1zw1clZIXcxFk2CkbBKBgFo2AUjIJRMApGwSgYBaNgFIyCEQEA</stream>
+                    </item>
+                    <item name="RefID" type_name="gh_guid" type_code="9">00000000-0000-0000-0000-000000000000</item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

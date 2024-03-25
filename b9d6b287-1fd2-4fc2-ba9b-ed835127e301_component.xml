@@ -1,0 +1,120 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">fab11c30-2d9c-4d15-ab3c-2289f1ae5c21</item>
+    <item name="Name" type_name="gh_string" type_code="10">Solid Difference</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="6">
+        <item name="Description" type_name="gh_string" type_code="10">Perform a solid difference on two Brep sets.</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">b9d6b287-1fd2-4fc2-ba9b-ed835127e301</item>
+        <item name="Locked" type_name="gh_bool" type_code="1">true</item>
+        <item name="Name" type_name="gh_string" type_code="10">Solid Difference</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Solid Difference</item>
+      </items>
+      <chunks count="4">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>5147</X>
+              <Y>1706</Y>
+              <W>118</W>
+              <H>44</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>5208</X>
+              <Y>1728</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="9">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">First Brep set</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">ed04ec62-3d6e-46a7-9b77-c9490bc1c5a1</item>
+            <item name="Locked" type_name="gh_bool" type_code="1">true</item>
+            <item name="Name" type_name="gh_string" type_code="10">Breps A</item>
+            <item name="NickName" type_name="gh_string" type_code="10">Breps A</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">a5dbca92-cf29-49d3-b920-55946f4082c6</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>5149</X>
+                  <Y>1708</Y>
+                  <W>44</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>5172.5</X>
+                  <Y>1718</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_input" index="1">
+          <items count="9">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Second Brep set</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">d5dfda25-9b4a-4ab8-9b71-5b7080c62587</item>
+            <item name="Locked" type_name="gh_bool" type_code="1">true</item>
+            <item name="Name" type_name="gh_string" type_code="10">Breps B</item>
+            <item name="NickName" type_name="gh_string" type_code="10">Breps B</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">601d3637-425d-46c2-af12-60e0ef59c5ed</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>5149</X>
+                  <Y>1728</Y>
+                  <W>44</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>5172.5</X>
+                  <Y>1738</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="8">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Difference result</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">91a4dcdf-147c-4fd8-9559-c259cffdf7ef</item>
+            <item name="Locked" type_name="gh_bool" type_code="1">true</item>
+            <item name="Name" type_name="gh_string" type_code="10">Result</item>
+            <item name="NickName" type_name="gh_string" type_code="10">Result</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>5223</X>
+                  <Y>1708</Y>
+                  <W>40</W>
+                  <H>40</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>5243</X>
+                  <Y>1728</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

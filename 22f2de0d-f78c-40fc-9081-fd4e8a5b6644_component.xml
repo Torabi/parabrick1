@@ -1,0 +1,40 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">2844fec5-142d-4381-bd5d-4cbcef6d6fed</item>
+    <item name="Name" type_name="gh_string" type_code="10">Sketch</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="5">
+        <item name="Description" type_name="gh_string" type_code="10">A series of doodles</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">22f2de0d-f78c-40fc-9081-fd4e8a5b6644</item>
+        <item name="MarkCount" type_name="gh_int32" type_code="3">0</item>
+        <item name="Name" type_name="gh_string" type_code="10">Sketch</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Sketch</item>
+      </items>
+      <chunks count="1">
+        <chunk name="Attributes">
+          <items count="1">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>0</X>
+              <Y>0</Y>
+              <W>1</W>
+              <H>1</H>
+            </item>
+          </items>
+          <chunks count="1">
+            <chunk name="SketchProperties">
+              <items count="3">
+                <item name="Color" type_name="gh_drawing_color" type_code="36">
+                  <ARGB>255;0;0;0</ARGB>
+                </item>
+                <item name="Pattern" type_name="gh_int32" type_code="3">0</item>
+                <item name="Width" type_name="gh_single" type_code="5">3</item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

@@ -1,0 +1,99 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">fbac3e32-f100-4292-8692-77240a42fd1a</item>
+    <item name="Name" type_name="gh_string" type_code="10">Point</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="6">
+        <item name="Description" type_name="gh_string" type_code="10">Contains a collection of three-dimensional points</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">4c814243-31a4-4983-a6d0-f24cf5d93646</item>
+        <item name="Name" type_name="gh_string" type_code="10">Point</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Point</item>
+        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+        <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+      </items>
+      <chunks count="2">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>4196</X>
+              <Y>1784</Y>
+              <W>50</W>
+              <H>24</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>4221.543</X>
+              <Y>1796.776</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="PersistentData">
+          <items count="1">
+            <item name="Count" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Branch" index="0">
+              <items count="2">
+                <item name="Count" type_name="gh_int32" type_code="3">5</item>
+                <item name="Path" type_name="gh_string" type_code="10">{0}</item>
+              </items>
+              <chunks count="5">
+                <chunk name="Item" index="0">
+                  <!--GH_Point only stores data which exists, test the existence of data fields prior to reading.-->
+                  <items count="1">
+                    <item name="Coordinate" type_name="gh_point3d" type_code="51">
+                      <X>1533.9951915637</X>
+                      <Y>162.24348878028</Y>
+                      <Z>1193.16292625814</Z>
+                    </item>
+                  </items>
+                </chunk>
+                <chunk name="Item" index="1">
+                  <!--GH_Point only stores data which exists, test the existence of data fields prior to reading.-->
+                  <items count="1">
+                    <item name="Coordinate" type_name="gh_point3d" type_code="51">
+                      <X>1597.09803044984</X>
+                      <Y>324.041249637563</Y>
+                      <Z>483.86322604057</Z>
+                    </item>
+                  </items>
+                </chunk>
+                <chunk name="Item" index="2">
+                  <!--GH_Point only stores data which exists, test the existence of data fields prior to reading.-->
+                  <items count="1">
+                    <item name="Coordinate" type_name="gh_point3d" type_code="51">
+                      <X>11.0570927606392</X>
+                      <Y>142.278076042817</Y>
+                      <Z>683.415139972378</Z>
+                    </item>
+                  </items>
+                </chunk>
+                <chunk name="Item" index="3">
+                  <!--GH_Point only stores data which exists, test the existence of data fields prior to reading.-->
+                  <items count="1">
+                    <item name="Coordinate" type_name="gh_point3d" type_code="51">
+                      <X>-1166.49807831172</X>
+                      <Y>354.704129186406</Y>
+                      <Z>0</Z>
+                    </item>
+                  </items>
+                </chunk>
+                <chunk name="Item" index="4">
+                  <!--GH_Point only stores data which exists, test the existence of data fields prior to reading.-->
+                  <items count="1">
+                    <item name="Coordinate" type_name="gh_point3d" type_code="51">
+                      <X>-1166.49807831172</X>
+                      <Y>319.444363260906</Y>
+                      <Z>1441.19128837888</Z>
+                    </item>
+                  </items>
+                </chunk>
+              </chunks>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>
